@@ -1,0 +1,65 @@
+/* base */
+body {
+  background: repeating-linear-gradient(55deg, #024033e6 -22%, #054d41a1 45%, #40024ccf 125%),
+  repeating-linear-gradient(284deg, #79a7d3b1 -22%, #7016e561 45%, #6883bc8b 125%);
+
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--text);
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); */
+
+  margin: 0;
+}
+
+/* input, input::placeholder, select, button {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.color-secondary {
+  color: var(--text-secondary)
+}
+
+
+
+table.lean tr {
+  border-bottom: 1px solid rgba(160, 49, 49, 0.4);
+}
+
+table.lean th {
+  text-align: left;
+}
